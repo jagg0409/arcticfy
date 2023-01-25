@@ -1,0 +1,25 @@
+*{
+    max-height: 1080px;
+    max-width: 1980px;
+    margin: 0%;
+padding: 0%;
+}
+body{
+    text-transform: capitalize;
+background-color: rgb(65, 63, 63);
+}
+#lat{
+float: left;
+text-align: left;
+background-color: black;
+color: aliceblue;
+height: 1080px;
+width: 230px;
+position: fixed;
+}
+#logos{padding: 20px;
+    
+}
+#logos img{
+    width: 30px;    
+}
