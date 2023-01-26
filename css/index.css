@@ -1,25 +1,107 @@
 *{
-    max-height: 1080px;
-    max-width: 1980px;
+    max-height: 100%;
+    max-width: 100%;
     margin: 0%;
 padding: 0%;
+
 }
 body{
     text-transform: capitalize;
-background-color: rgb(65, 63, 63);
+background-color: rgb(32, 32, 32);
+max-height: 100%;
+max-width: 100%;
+display: flex;
 }
 #lat{
 float: left;
-text-align: left;
+text-align: justify;
 background-color: black;
 color: aliceblue;
-height: 1080px;
-width: 230px;
+height: 100%;
+width: 17%;
 position: fixed;
+padding-top :2%;
+padding-left: 2%;
+overflow: visible;
+padding-right: 2%;
 }
-#logos{padding: 20px;
-    
+#logo{
+    vertical-align: middle;
+    margin-bottom: 15%;
+    font-size: 2vw;
+    word-wrap: break-word;
 }
+#logo img{
+    width: 26%;  
+    vertical-align: middle; 
+    margin-right: 4%;
+}
+a{
+text-decoration: none;
+color: rgba(240, 248, 255, 0.521);
+}
+
+#logos{
+    vertical-align: middle;
+    margin-bottom: 10%;
+    font-size:1.4vw;
+}
+
 #logos img{
-    width: 30px;    
+    width: 13%;  
+    vertical-align: middle; 
+    margin-right: 7%;
+}
+#footlat{
+    margin-top: 60%;
+    text-align: justify;
+    word-wrap: break-word;
+    padding-bottom:10%;
+    color: rgba(240, 248, 255, 0.658);
+    font-size: 1vw;
+}
+#up{
+   position:fixed;
+    text-align: right;
+    padding-top:0.5% ;
+    padding-bottom: 0.5%;
+    font-size: 1.4vw;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 100%;
+    color: aliceblue;
+overflow: hidden;
+
+}
+
+#up button{ 
+    background-color: rgba(240, 248, 255, 0.753);
+    text-transform: capitalize;
+    margin-right: 2%;
+    margin-left: 1%;
+    height: 4vw;
+    width: 12vw;
+    border-radius: 500px;
+    font-size: 1.2vw;
+}
+#up button:hover{
+    width: 13%;
+    height: 55px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    font-size: 1.3vw;
+}
+a:hover{
+    color: aliceblue;
+    transition-duration:1s ;
+}
+
+#arctic{
+    vertical-align: middle;
+    float: left;
+    margin-left: 24%;
+}
+
+#arctic img{
+    width: 2.9vw;
+   margin-top: 12%;
 }
