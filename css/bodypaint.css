@@ -1,0 +1,140 @@
+*{
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0%;
+padding: 0%;
+font-family: 'Arimo', sans-serif;
+
+
+}
+body{
+    text-transform: capitalize;
+background-color: rgb(29, 29, 29);
+max-height: 100%;
+max-width: 100%;
+display: flex;
+
+}
+#lat{
+float: left;
+text-align: justify;
+background-color: black;
+color: aliceblue;
+height: 100%;
+width: 18vw;
+position: fixed;
+padding-top :2%;
+padding-left: 2%;
+overflow: visible;
+padding-right: 2%;
+z-index: 11;
+}
+#logo{
+    vertical-align: middle;
+    margin-bottom: 4vw;
+    font-size: 2vw;
+    word-wrap: break-word;
+}
+#logo img{
+    width: 26%;  
+    vertical-align: middle; 
+    margin-right: 4%;
+}
+a{
+text-decoration: none;
+color: rgba(240, 248, 255, 0.521);
+}
+
+#logos{
+    vertical-align: middle;
+    margin-bottom: 10%;
+    font-size:1.3vw;
+}
+
+#logos img{
+    width: 13%;  
+    vertical-align: middle; 
+    margin-right: 7%;
+}
+#footlat{
+    margin-top: 60%;
+    text-align: justify;
+    word-wrap: break-word;
+    padding-bottom:10%;
+    color: rgba(240, 248, 255, 0.658);
+    font-size: 1vw;
+}
+#up{
+   position:fixed;
+    text-align: right;
+    padding-top:0.5vw ;
+    padding-bottom: 0.5vw;
+    font-size: 1.4vw;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 100%;
+    color: aliceblue;
+overflow: hidden;
+z-index: 10;
+
+}
+#line{
+    vertical-align: middle;
+    width: 3vw;
+    margin-right: 1vw;
+    }
+
+#up button{ 
+    background-color: rgba(240, 248, 255, 0.753);
+    text-transform: capitalize;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    height: 4vw;
+    width: 12vw;
+    border-radius: 500px;
+    font-size: 1.2vw;
+}
+#up button:hover{
+   
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    color: black;
+    background-color: blueviolet;
+}
+a:hover{
+    color: blueviolet;
+    transition-duration:1s ;
+}
+
+#arctic{
+    vertical-align: middle;
+    float: left;
+    margin-left: 24%;
+}
+
+#arctic img{
+    width: 2.9vw;
+   margin-top: 12%;
+}
+main{
+    padding-left: 22vw;
+     margin-top: 5vw;
+ }
+ #barras-audio{
+    margin: 1vw;
+ }
+
+audio{
+    width: 78vw;
+    border-width: 0.3vw;
+        border-style:solid;
+    border-radius: 2.2vw;
+    border-color: rgba(255, 255, 255, 0.452);
+}
+      audio::-webkit-media-controls-panel {
+        background: rgb(2,139,185);
+background: linear-gradient(90deg, rgba(2,139,185,1) 26%, rgba(143,0,255,1) 64%);
+      }   
+
+
+
+ 
