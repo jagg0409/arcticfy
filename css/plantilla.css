@@ -83,24 +83,62 @@ z-index: 10;
     width: 3vw;
     margin-right: 1vw;
     }
-
-#up button{ 
-    background-color: rgba(240, 248, 255, 0.753);
-    text-transform: capitalize;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    height: 4vw;
-    width: 12vw;
-    border-radius: 500px;
-    font-size: 1.2vw;
-}
-#up button:hover{
    
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-    color: black;
-    background-color: blueviolet;
-}
+
+#up button {
+  perspective: 100vw;
+  background: radial-gradient(circle, rgba(180,112,236,1) 23%, rgba(118,114,230,1) 62%);
+  border: none;
+  outline: none;
+  font-size: 1vw;
+  text-transform: uppercase;
+  text-decoration: double;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  height: 3vw;
+  width: 12vw;
+  font-size: 1.3vw;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 10px 10px #000;
+  cursor: pointer;
+  transform: rotateX(50deg) rotateZ(10deg);
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  
+ 
+ }
+ 
+ #up button::before {
+  content: "";
+  width: 100%;
+  height: 1vw;
+  background: radial-gradient(circle, rgba(180,112,236,1) 23%, rgba(118,114,230,1) 62%);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotateX(90deg);
+  transform-origin: bottom;
+  
+ }
+ 
+ #up button::after {
+  content: "";
+  width: 1vw;
+  height: 3vw;
+  background: radial-gradient(circle, rgba(180,112,236,1) 23%, rgba(118,114,230,1) 62%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: rotateY(-90deg);
+  transform-origin: right;
+ }
+ 
+ #up button:hover {
+  transform: rotateX(30deg) rotateZ(0);
+ }
+ 
+
+
 a:hover{
     color: blueviolet;
     transition-duration:1s ;

@@ -54,7 +54,8 @@ margin-bottom: 0.5vw;
 }
 
 #anima{
-    background-color: #8c00ff13;
+    background: rgba(152, 70, 210, 0.25);
+    background: linear-gradient(61deg, rgba(152, 70, 210, 0.25) 4%, rgba(127, 51, 185, 0.25) 10%, rgba(93, 23, 147, 0.25) 30%, rgba(69,35,199,0.25) 50%, rgba(94,23,147,0.25) 70%, rgba(128,51,185,0.25) 90%, rgba(151,70,210,0.25) 96%);
     width: 0vw;
     height: 0vw;
     border-radius: 5px;
