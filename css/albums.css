@@ -13,6 +13,7 @@ border-bottom: .2vw;
 border-color: rgb(126, 122, 122);
 border-style:groove;
 font-size: 1vw;
+color: rgb(0, 0, 0);
 }
 #barras-audio img{
     width: 22vw;
@@ -25,8 +26,9 @@ box-shadow: 0 0 1em .25em var(--glow-color),
        0 0 2em .5em var(--glow-spread-color),
        inset 0 0 .75em .25em var(--glow-color);
 }
+
 audio{
-   width: 50vw;
+   width: 40vw;
    height: 3vw;
    border-width: 0.3vw;
    border-radius: 10vw;
@@ -35,23 +37,17 @@ audio{
 box-shadow: 0 0 1.5em .25em var(--glow-color),
        0 0 2em .5em var(--glow-spread-color),
        inset 0 0 .75em .25em var(--glow-color);
-   
+   margin-bottom: 2vw;
 }
      audio::-webkit-media-controls-panel {
        background: rgb(151,70,210);
 background: linear-gradient(61deg, rgba(151,70,210,1) 4%, rgba(128,51,185,1) 10%, rgba(94,23,147,1) 30%, rgba(69,35,199,1) 50%, rgba(94,23,147,1) 70%, rgba(128,51,185,1) 90%, rgba(151,70,210,1) 96%);}
 
-audio::-webkit-media-controls-panel:hover{
-       
-       transition-timing-function: ease-in-out;
-       transition-duration: 3s;
-       background: rgb(69,35,199);
-background: linear-gradient(61deg, rgba(69,35,199,1) 4%, rgba(51,61,185,1) 10%, rgba(23,74,147,1) 30%, rgba(35,95,199,1) 50%, rgba(23,74,147,1) 70%, rgba(51,61,185,1) 90%, rgba(69,35,199,1) 96%); 
-}
+
 audio:hover{
 
        
-       transition-duration: 0.7s;
+       transition-duration: 1.5s;
        transition-timing-function: ease-in-out;
        border-width: 0.3vw;
    border-radius: 14vw;
