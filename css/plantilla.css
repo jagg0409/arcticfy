@@ -14,7 +14,8 @@ background-color: rgb(29, 29, 29);
 max-height: 100%;
 max-width: 100%;
 display: flex;
-
+padding: 0%;
+margin: 0%;
 }
 #lat{
 float: left;
@@ -99,7 +100,7 @@ z-index: 10;
   width: 12vw;
   font-size: 1.3vw;
   color: rgb(0, 0, 0);
-  text-shadow: 0 10px 10px #000;
+  text-shadow: 0 3px 5px #000;
   cursor: pointer;
   transform: rotateX(50deg) rotateZ(10deg);
   transform-style: preserve-3d;
@@ -139,10 +140,11 @@ background: aliceblue;
  }
  
 
-
+a{
+  transition-duration:1s ;
+}
 a:hover{
     color: blueviolet;
-    transition-duration:1s ;
 }
 
 #arctic{
@@ -156,19 +158,23 @@ a:hover{
    margin-top: 12%;
 }
 main{
-   padding-left: 22vw;
-    margin-top:7vw;
+   padding-left: 21.9vw;
+    margin-top:6vw;
+
+    width: 78vw;
     
 }
 
 #footer{
-    float: left;
+    float:right;
  font-size: 1vw;
  width: 100%;
 background-color:  rgb(20, 20, 20);
   color: white;
  padding-top: 3vw;
- margin-top: 3vw;
+ margin: 0%;
+ position:relative;
+ bottom: 0;
   }
   #footer h4{
     font-size: 1vw;
@@ -212,10 +218,10 @@ background-color:  rgb(20, 20, 20);
   #iglogo{
     width: 3vw;
     margin: 1vw;
+    transition: all 1s;
   } 
   #iglogo:hover{
    width: 3.5vw;
-   transition: all 1s;
   }
   #iglogo p{
     float: left;

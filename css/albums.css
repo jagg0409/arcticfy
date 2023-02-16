@@ -38,6 +38,7 @@ box-shadow: 0 0 1.5em .25em var(--glow-color),
        0 0 2em .5em var(--glow-spread-color),
        inset 0 0 .75em .25em var(--glow-color);
    margin-bottom: 2vw;
+   transition-duration: 1.5s;
 }
      audio::-webkit-media-controls-panel {
        background: rgb(151,70,210);
@@ -47,7 +48,6 @@ background: linear-gradient(61deg, rgba(151,70,210,1) 4%, rgba(128,51,185,1) 10%
 audio:hover{
 
        
-       transition-duration: 1.5s;
        transition-timing-function: ease-in-out;
        border-width: 0.3vw;
    border-radius: 14vw;
