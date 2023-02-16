@@ -1,107 +1,103 @@
-*{
-    max-height: 100%;
-    max-width: 100%;
-    margin: 0%;
-padding: 0%;
+
+#albums{
+    background-color: rgb(29, 29, 29);
+    width: 73.2vw;
+    padding: 1.9vw;
+
+   
+}
+#albums h2{
+    display: inline;
+    color: aliceblue;
+    font-size: 1.8vw;
+}
+#albums h4{
+    float: right;
+   display: inline;
+   font-size: 1vw;
 
 }
-body{
-    text-transform: capitalize;
-background-color: rgb(32, 32, 32);
-max-height: 100%;
-max-width: 100%;
-display: flex;
+
+#portadas{
+    
+    padding-top: 2.5vw;
 }
-#lat{
-float: left;
-text-align: justify;
-background-color: black;
+
+#portada{
+   background-color: rgb(20, 20, 20);
+   width: 15vw;
+   height: 22vw;
+   align-items: center;
+   border-radius: 5px;
+   margin-top: 2vw;
+   margin-left: 3vw;
+   padding: 1.5vw;
+ font-size: 1vw;
+ display: inline-block;
+}
+
+#portada img{
+    
+    width: 15vw;
+    height: 15vw;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.418);
+    z-index: 2;
+    position: relative;
+
+}
+#portada h3{
 color: aliceblue;
-height: 100%;
-width: 17%;
-position: fixed;
-padding-top :2%;
-padding-left: 2%;
-overflow: visible;
-padding-right: 2%;
-}
-#logo{
-    vertical-align: middle;
-    margin-bottom: 15%;
-    font-size: 2vw;
-    word-wrap: break-word;
-}
-#logo img{
-    width: 26%;  
-    vertical-align: middle; 
-    margin-right: 4%;
-}
-a{
-text-decoration: none;
-color: rgba(240, 248, 255, 0.521);
+margin-top: 1.5vw;
+margin-bottom: 0.5vw;
 }
 
-#logos{
-    vertical-align: middle;
-    margin-bottom: 10%;
-    font-size:1.4vw;
+#anima{
+    background: rgba(152, 70, 210, 0.25);
+    background: linear-gradient(61deg, rgba(152, 70, 210, 0.25) 4%, rgba(127, 51, 185, 0.25) 10%, rgba(93, 23, 147, 0.25) 30%, rgba(69,35,199,0.25) 50%, rgba(94,23,147,0.25) 70%, rgba(128,51,185,0.25) 90%, rgba(151,70,210,0.25) 96%);
+    width: 0vw;
+    height: 0vw;
+    border-radius: 5px;
+    transition-duration: 1.5s;
+ position: absolute;
+ margin-top: -1.5vw;
+ margin-left: -1.5vw;
+z-index: 1;
 }
-
-#logos img{
-    width: 13%;  
-    vertical-align: middle; 
-    margin-right: 7%;
+#anima img{
+    float: right;
+    margin-top: -1.5vw;
+ margin-left: -1.5vw;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-style: none;
+    transition-duration: 1.5s;
+    
 }
-#footlat{
-    margin-top: 60%;
-    text-align: justify;
-    word-wrap: break-word;
-    padding-bottom:10%;
-    color: rgba(240, 248, 255, 0.658);
-    font-size: 1vw;
+#portada:hover  #anima img{
+    margin-top: 17vw;
+    margin-right: 1.5vw;
 }
-#up{
-   position:fixed;
-    text-align: right;
-    padding-top:0.5% ;
-    padding-bottom: 0.5%;
-    font-size: 1.4vw;
-    background-color: rgba(0, 0, 0, 0.514);
-    width: 100%;
-    color: aliceblue;
+#portada:hover #anima{
+    width: 18vw;
+    height: 25vw;
+    border-radius: 5px;
 overflow: hidden;
-
+ position: absolute;
+ margin-top: -1.5vw;
+ margin-left: -1.5vw;
+ 
+}
+#portada a{
+    color: rgba(240, 248, 255, 0.521);
 }
 
-#up button{ 
-    background-color: rgba(240, 248, 255, 0.753);
-    text-transform: capitalize;
-    margin-right: 2%;
-    margin-left: 1%;
-    height: 4vw;
-    width: 12vw;
-    border-radius: 500px;
-    font-size: 1.2vw;
-}
-#up button:hover{
-    width: 13%;
-    height: 55px;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-    font-size: 1.3vw;
-}
-a:hover{
-    color: aliceblue;
-    transition-duration:1s ;
-}
 
-#arctic{
-    vertical-align: middle;
-    float: left;
-    margin-left: 24%;
-}
 
-#arctic img{
-    width: 2.9vw;
-   margin-top: 12%;
-}
+
+
+
+
+
+ 
