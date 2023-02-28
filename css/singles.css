@@ -59,7 +59,18 @@ box-shadow: 0 0 3em .25em var(--glow-color),
   inset 0 0 .75em .25em var(--glow-color);
 }
 
-
+audio::-webkit-media-controls-current-time-display{
+  color: rgb(74, 26, 151);
+  }
+audio::-webkit-media-controls-time-remaining-display{
+  color: rgb(18, 126, 153);
+  }
+audio::-webkit-media-controls-timeline{
+  color: #235fc7;
+  }
+  audio::-webkit-media-controls-volume-slider-container{
+ color: aqua;
+      }
 
 .loading {
   --speed-of-animation: 2s;
