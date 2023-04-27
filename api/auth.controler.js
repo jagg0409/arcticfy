@@ -43,7 +43,7 @@ const findAndAssingUser = async (req, res, next)=>{
                     const signed = singtoken(user._id)
                     res.send(signed)
                 }else{
-                    res.send('lele')
+                    console.log("no es correcta la comparcion");
                 }
                 }
         }

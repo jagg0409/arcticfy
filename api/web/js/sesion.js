@@ -31,22 +31,21 @@ window.onload = () => {
                 method: 'POST',
                 body: JSON.stringify(data),
                 headers:{
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'application/json'
                 }
             })
             const responsedata = await response.text()
             if(response.status >= 300){
                 console.log('no sirve')
             }else{
-                localStorage.setItem('jwt', `Bearer ${responsedata}`)
+                localStorage.setItem('Jwt', `Bearer ${responsedata}`)
                 await fetch ('/prueba',{
                     method: 'GET',
                     headers:{
                         'Content-Type': 'application/json',
-                        'Authorization': localStorage.getItem('jwt') 
+                        'Authorization': localStorage.getItem('Jwt') 
                     }
                 }) 
-                ?token: responsedata;
                 console.log('este es mi response data ', responsedata)
                 }
                 form.reset()

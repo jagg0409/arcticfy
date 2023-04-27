@@ -10,17 +10,8 @@ app.use(express.json())
 
 mongoose.connect('mongodb+srv://jagg0409:lolazo0409@arcticfy.6tbtlze.mongodb.net/?retryWrites=true&w=majority')
 
-app.get('/try', (req, res) => {
-    if (isAuthenticated) {
-        res.sendFile(`${__dirname}/web/html/index.html`)
-
-    } else {
-        res.sendFile(`${__dirname}/web/html/sesion.html`)
-    }
-})
 app.get('/prueba', isAuthenticated, (req, res) => {
     res.sendFile(`${__dirname}/web/html/index.html`)
-
 });
 
 app.get('/:email', isAuthenticated, user.get)
@@ -48,7 +39,7 @@ app.get('/', (req, res) =>{
 
 
 app.listen(port, () => {
-    console.log('arrancando')
+    console.log('arrancando en el puerto 2000')
 })
 
 
