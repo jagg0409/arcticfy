@@ -36,7 +36,7 @@ window.onload = () => {
             })
             const responsedata = await response.text()
             if(response.status >= 300){
-                console.log('no sirve')
+                console.log('la respuesta es mayor a 300')
             }else{
                 localStorage.setItem('Jwt', `Bearer ${responsedata}`)
                 await fetch ('/prueba',{
