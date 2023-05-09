@@ -6,6 +6,11 @@
     flex-direction: row;
     width: 78vw;
     margin-top: 5vw;
+    border: 0vw;
+    border-bottom: 0.2vw;
+    border-color: rgb(126, 122, 122);
+    border-style: groove;
+    padding-bottom: 7vw;
 }
 
 
@@ -18,7 +23,7 @@
     outline: none;
     border: 0.1vw solid #303030;
     background: #212121;
-    color: #ae00ff;
+    color: #712295;
   
     text-transform: uppercase;
     
@@ -33,12 +38,11 @@
    }
    
    #buscar:hover #search{
-    box-shadow: 0 0 1vw #ae00ff, 0 0 2vw #001eff, 0 0 3.3vw #ae00ff;
+    box-shadow: 0 0 1vw #ae00ff, 0 0 2vw #001eff, 0 0 2vw #ae00ff;
     border-color: #ae00ff;
     width: 40vw;
     transition: 2s;
     margin-left: 2vw;
-    text-shadow:0vw 0vw 0.2vw #0381f7;
    }
    #buscar img{
     width: 3.3vw;
@@ -51,10 +55,11 @@
     border-radius: 50%;
    }
    #buscar:hover #borde{
-    box-shadow: 0 0 1vw #0381f7, 0 0 2vw #0059fd, 0 0 2.5vw #0044ff;
+    box-shadow: 0 0 1vw #0381f7, 0 0 2vw #0059fd, 0 0 2vw #0044ff;
     transition: 2s;
   
    }
+  
    
    
 

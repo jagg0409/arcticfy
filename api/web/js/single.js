@@ -1,4 +1,4 @@
-const btnPlay = document.querySelector("#btn-play");
+  const btnPlay = document.querySelector("#btn-play");
 const btnPlayIcon = document.querySelector("#btn-play-icon");
 const btnRepeat = document.querySelector("#btn-repeat");
 const btnPrev = document.querySelector("#btn-prev");
@@ -21,26 +21,6 @@ const songs = [
     name: "Arabella-",
     author: "Arctic Monkeys",
     path: "../audio/Arctic Monkeys   Arabella (Official Audio.mp3",
-  },
-  {
-    name: "Body Paint",
-    author: "Arctic Monkeys",
-    path: "../audio/bodypaint.mp3",
-  },
-  {
-    name: "Sexy Fashion Beats",
-    author: "Arctic Monkeys",
-    path: "./assets/songs/Coma Media - Sexy Fashion Beats.mp3",
-  },
-  {
-    name: "Best Time",
-    author: "FASSounds",
-    path: "./assets/songs/FASSounds - Best Time.mp3",
-  },
-  {
-    name: "Guitar Electro Sport",
-    author: "Gvidon",
-    path: "./assets/songs/Gvidon - Guitar Electro Sport Trailer.mp3",
   },
 ];
 
