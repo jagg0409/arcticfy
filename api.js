@@ -8,7 +8,6 @@ const port = 2000
 
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://jagg0409:lolazo0409@arcticfy.6tbtlze.mongodb.net/?retryWrites=true&w=majority')
 
 app.get('/prueba', isAuthenticated, (req, res) => {
     res.sendFile(`${__dirname}/web/html/index.html`)
