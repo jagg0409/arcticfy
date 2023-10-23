@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d build"
   },
   "engines": {
-    "node": "21.x"
+    "node": "18.x"
   },
   "author": "Jagg",
   "license": "ISC",
