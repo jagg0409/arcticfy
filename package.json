@@ -5,8 +5,9 @@
   "main": "./api/web/html/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node api.js"
-
+    "start": "node api.js",
+    "build": "node api.js",
+    "deploy": "gh-pages -d build"
   },
   "author": "Jagg",
   "license": "ISC",
